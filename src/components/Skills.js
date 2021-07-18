@@ -54,14 +54,14 @@ export const Skills = () => {
                         </div>
                         <div className="skills__data">
                             <div className="skills__names">
-                                <i className='bx bxs-paint skills__icon'></i>
-                                <span className="skills__name">UX/UI</span>
+                                <i className='bx bxl-git skills__icon'></i>
+                                <span className="skills__name">GIT & GITHUB</span>
                             </div>
-                            <div className="skills__bar skills__ux">
+                            <div className="skills__bar skills__git">
                                 
                             </div>
                             <div>
-                                <span className="skills__percentage">55%</span>
+                                <span className="skills__percentage">85%</span>
                             </div>
                         </div>
                         <div className="skills__data">
@@ -86,6 +86,18 @@ export const Skills = () => {
                             </div>
                             <div>
                                 <span className="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div className="skills__data">
+                            <div className="skills__names">
+                                <i className='bx bxl-amazon skills__icon'></i>
+                                <span className="skills__name">AWS - S3/CLOUDFRONT/Amplify</span>
+                            </div>
+                            <div className="skills__bar skills__aws">
+                                
+                            </div>
+                            <div>
+                                <span className="skills__percentage">50%</span>
                             </div>
                         </div>
                         

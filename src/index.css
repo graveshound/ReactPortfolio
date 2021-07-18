@@ -222,7 +222,7 @@ img{
   bottom: 0;
   width: 295px;
   overflow: hidden;
-  border-radius: 250px 0px 0px 0px;
+  border-radius: 200px 20px 0px 20px;
 }
 
 .home__img img{
@@ -249,7 +249,7 @@ img{
 .about__container{
   row-gap: 2rem;
   text-align: center;
-  margin-bottom: 220px;
+  margin-bottom: 230px;
 }
 .about__subtitle{
   margin-bottom: var(--mb-2);
@@ -305,9 +305,11 @@ img{
 .skills__trio{
   width: 90%;
 }
-
-.skills__ux{
-  width: 55%;
+.skills__aws{
+  width: 50%;
+}
+.skills__git{
+  width: 85%;
 }
 .skills__react{
   width: 75%;
@@ -328,6 +330,7 @@ img{
 /* ===== WORK =====*/
 .work__container{
   row-gap: 2rem;
+  margin-bottom: 10px;
 }
 
 .work__rep{
@@ -403,7 +406,12 @@ padding-top: 50px;
   width:180px;
   display:block;
   margin:0 auto;
-  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+section.contact{
+  margin-top: 100px;
+  margin-bottom: 250px;
 }
 
 /* ===== MEDIA QUERIES=====*/
@@ -476,12 +484,8 @@ padding-top: 50px;
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
-  .contact__form{
-    width: 360px;
-  }
-  .contact__container{
-    justify-items: center;
-  }
+  
+ 
 }
 
 @media screen and (min-width: 1024px){
