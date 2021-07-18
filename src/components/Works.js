@@ -19,15 +19,18 @@ export const Works = () => {
                         {...repo}/>
                     })
                 }
-                <div className="work__rep">
-                <span> Find more at...</span>
-                <a href='https://github.com/graveshound' target="_blank" rel='noreferrer'>
+                
+               
+              </div>
+                    <div className='more'>
+                        <h3> Watch more at...<a href='https://github.com/graveshound' target="_blank" rel='noreferrer'>
                     
 
                     <i id='more'className='bx bxl-github' ></i>
-                </a>
-            </div>
-              </div>
+                    </a></h3>
+                    
+                        
+                    </div>
             </section>
     )
 }

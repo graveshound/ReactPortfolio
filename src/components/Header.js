@@ -12,16 +12,18 @@ export const Header = () => {
         download: false
     });
 
+    const [menu,setMenu] = useState()
+
 
 
     return (
         <header className="l-header">
         <nav className="nav bd-grid">
             <div>
-                <a href="/#" className="nav__logo">Pedro</a>
+                <a href="/#" className="nav__logo"><i className='bx bx-code-alt'></i></a>
             </div>
-
-            <div className="nav__menu" id="nav-menu">
+            
+            <div className={`nav__menu ${menu? 'show':''}`} id="nav-menu">
                 <ul className="nav__list">
                     <li className="nav__item">
                         <a href="#home" 
@@ -72,7 +74,8 @@ export const Header = () => {
                 </ul>
             </div>
 
-            <div className="nav__toggle" id="nav-toggle">
+            <div className="nav__toggle" id="nav-toggle" 
+            onClick={ ()=>{menu===true?setMenu(false):setMenu(true)}}>
                 <i className='bx bx-menu'></i>
             </div>
         </nav>

@@ -1,5 +1,5 @@
 const USERNAME='graveshound';
-const RESULTS='11'
+const RESULTS='9'
 
 export const getRepos = async() =>{
 

@@ -31,7 +31,7 @@ export const WorkItem = ({name, url, lang, desc}) => {
     return (
         
             <div className="work__rep">
-                <div>
+                
                 <a href={url} target="_blank" rel='noreferrer'>
                 <div>
                     <div>
@@ -43,7 +43,7 @@ export const WorkItem = ({name, url, lang, desc}) => {
                     <p>{desc?desc:'No description Available'}</p>
                 </div>
                 </a>
-                </div>
+                
             </div>
         
        
