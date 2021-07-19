@@ -12,7 +12,7 @@ export const Welcome = () => {
                 </div>
 
                 <div className="home__social">
-                    <a href="www.linkedin.com/in/pedro-arce-graveshound" target="_blank" rel="noreferrer" className="home__social-icon"><i className='bx bxl-linkedin'></i></a>
+                    <a href="https://www.linkedin.com/in/parcedev" target="_blank" rel="noreferrer" className="home__social-icon"><i className='bx bxl-linkedin'></i></a>
                     <a href="https://github.com/graveshound" target="_blank" rel="noreferrer" className="home__social-icon"><i className='bx bxl-github' ></i></a>
                     <a href="mailto:pedro_arce@outlook.com " className="home__social-icon"><i className='bx bx-mail-send' ></i></a>
                 </div>
