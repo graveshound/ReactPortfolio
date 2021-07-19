@@ -8,7 +8,7 @@ export const Skills = () => {
                 <div className="skills__container bd-grid">          
                     <div>
                         <h2 className="skills__subtitle">Profesional Skills</h2>
-                        <p className="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        
                         <div className="skills__data">
                             <div className="skills__names">
                                 <i className='bx bxl-html5 skills__icon'></i>
@@ -66,6 +66,18 @@ export const Skills = () => {
                         </div>
                         <div className="skills__data">
                             <div className="skills__names">
+                                <i className='bx bx-link-external skills__icon'></i>
+                                <span className="skills__name">API CONSUMPTION - POSTMAN/CURL/THUNDERCLIENT</span>
+                            </div>
+                            <div className="skills__bar skills__api">
+                                
+                            </div>
+                            <div>
+                                <span className="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div className="skills__data">
+                            <div className="skills__names">
                                 <i className='bx bxl-nodejs skills__icon'></i>
                                 <span className="skills__name">NODEJS</span>
                             </div>
@@ -91,13 +103,13 @@ export const Skills = () => {
                         <div className="skills__data">
                             <div className="skills__names">
                                 <i className='bx bxl-amazon skills__icon'></i>
-                                <span className="skills__name">AWS - S3/CLOUDFRONT/Amplify</span>
+                                <span className="skills__name">AWS - S3/CLOUDFRONT/AMPLIFY</span>
                             </div>
                             <div className="skills__bar skills__aws">
                                 
                             </div>
                             <div>
-                                <span className="skills__percentage">50%</span>
+                                <span className="skills__percentage">25%</span>
                             </div>
                         </div>
                         
