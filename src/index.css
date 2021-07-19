@@ -245,6 +245,10 @@ img{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
+#dl{
+  width:190px;
+}
+
 /* ===== ABOUT =====*/
 .about__container{
   row-gap: 2rem;
