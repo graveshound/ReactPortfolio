@@ -20,7 +20,7 @@ export const Header = () => {
         <header className="l-header">
         <nav className="nav bd-grid">
             <div>
-                <a href="/#" className="nav__logo"><i className='bx bx-code-alt'></i></a>
+                <a href="#home" className="nav__logo"><i className='bx bx-code-alt'></i></a>
             </div>
             
             <div className={`nav__menu ${menu? 'show':''}`} id="nav-menu">
